@@ -13,5 +13,4 @@ sudo apt-get install make unrar autoconf automake libtool gcc g++ gperf flex bis
 git clone --recursive https://github.com/pfalcon/esp-open-sdk.git
 cd esp-open-sdk/
 make STANDALONE=y
-
 ```
