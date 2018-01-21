@@ -14,3 +14,7 @@ git clone --recursive https://github.com/pfalcon/esp-open-sdk.git
 cd esp-open-sdk/
 make STANDALONE=y
 ```
+## Referências
+
+- [Instalando o SDK do ESP8266 da forma ainda mais fácil](http://pedrominatel.com.br/pt/ferramentas/instalando-o-sdk-do-esp8266-da-forma-ainda-mais-facil/)
+- [Programando de forma nativa no ESP8266 em C](http://pedrominatel.com.br/pt/esp8266/programando-de-forma-nativa-no-esp8266-em-c/)
