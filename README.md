@@ -6,7 +6,7 @@ Testes com o ESP8266.
 
 Os builds e flashs do projeto utilizam o [esp-open-sdk](https://github.com/pfalcon/esp-open-sdk).
 
-Em um Linux baseado em Debian, os comandos para as configurações são:
+Em um Linux baseado em Debian, os comandos para as configurações necessárias são:
 
 ```
 sudo apt-get install make unrar autoconf automake libtool gcc g++ gperf flex bison texinfo gawk ncurses-dev libexpat-dev python python-serial sed git help2man libtool-bin python-dev
@@ -15,10 +15,10 @@ cd esp-open-sdk/
 make STANDALONE=y
 ```
 
-Após a instalação, é necessário adicionar o caminho dos binários ao path. Use os comandos a seguir, substituindo <<Usuario>> pelo nome do seu usuário:
+Após a instalação, é preciso adicionar o caminho dos binários ao path. Use os comandos a seguir, substituindo USUARIO pelo nome do seu usuário:
 
 ```
-$ sudo echo "PATH=/home/destroyer/esp-open-sdk/xtensa-lx106-elf/bin:\$PATH" >> /home/<<Usuario>>/.bashrc
+$ sudo echo "PATH=/home/destroyer/esp-open-sdk/xtensa-lx106-elf/bin:\$PATH" >> /home/USUARIO/.bashrc
 $ sudo echo "PATH=/home/destroyer/esp-open-sdk/xtensa-lx106-elf/bin:\$PATH" >> /root/.bashrc
 ```
 
